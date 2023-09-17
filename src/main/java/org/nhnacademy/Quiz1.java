@@ -7,8 +7,7 @@ import org.slf4j.LoggerFactory;
 public class Quiz1 {
     Logger logger = LoggerFactory.getLogger(Quiz1.class);
     public Quiz1(){
-        logger.info("{}",Random.createRandom(100,00));
-
+        logger.info("{}",Random.createRandom(100,10));
     }
 }
 class Random{
