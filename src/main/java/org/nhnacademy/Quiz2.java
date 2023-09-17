@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 public class Quiz2 {
     public Quiz2(){
-        Logger logger = LoggerFactory.getLogger(Quiz1.class);
+        Logger logger = LoggerFactory.getLogger(Quiz2.class);
 
         int[][] arr = new int[][] {
                 {1, 1, 1, 1, 1, 1},
