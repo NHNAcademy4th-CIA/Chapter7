@@ -24,6 +24,7 @@ public class Exercise1 {
         logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
         logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
         logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
+        logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
     }
 
     private static ArrayList<Integer> makeArrayList(int arrayLength, int maxRange) {
