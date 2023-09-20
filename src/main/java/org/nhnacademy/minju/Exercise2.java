@@ -20,11 +20,11 @@ public class Exercise2 {
         Scanner scanner = new Scanner(System.in);
         int r = scanner.nextInt();
         int c = scanner.nextInt();
-        int[][] m = new int[r][c];
+        int[][] matrix = new int[r][c];
 
-        makeArray(m);
-        printArray(m);
-        int[][] temp = transpose(m);
+        makeArray(matrix);
+        printArray(matrix);
+        int[][] temp = transpose(matrix);
         printArray(temp);
     }
 
