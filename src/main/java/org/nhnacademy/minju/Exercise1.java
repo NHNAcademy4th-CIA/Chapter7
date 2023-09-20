@@ -21,13 +21,13 @@ public class Exercise1 {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int maxRange = scanner.nextInt();
-        logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
-        logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
-        logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
-        logger.info("{}", makeArrayList(random.nextInt(10), maxRange));
+        logger.info("{}", makeRandomList(random.nextInt(10), maxRange));
+        logger.info("{}", makeRandomList(random.nextInt(10), maxRange));
+        logger.info("{}", makeRandomList(random.nextInt(10), maxRange));
+        logger.info("{}", makeRandomList(random.nextInt(10), maxRange));
     }
 
-    private static ArrayList<Integer> makeArrayList(int arrayLength, int maxRange) {
+    private static ArrayList<Integer> makeRandomList(int arrayLength, int maxRange) {
         Random random = new Random();
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < arrayLength; i++) {
