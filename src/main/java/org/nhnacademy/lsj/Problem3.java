@@ -18,10 +18,12 @@ public class Problem3 {
     public static void problem3() {
 
         int[] arr = makeArray();
-        int[] arr2 = makeArray();
 
-        arraysSortTime(arr);
-        selectionSortTime(arr2);
+        int []arr2= arr;
+        int []arr3= arr;
+
+        arraysSortTime(arr2);
+        selectionSortTime(arr3);
 
     }
 
@@ -102,8 +104,8 @@ public class Problem3 {
      */
     public static int[] makeArray() {
 
-        int[] arr = new int[100000];
-        for (int i = 0; i < 100000; i++) {
+        int[] arr = new int[200000];
+        for (int i = 0; i < 200000; i++) {
             arr[i] = (int) (Math.random() * 100 + 1);
         }
         return arr;
