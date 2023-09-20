@@ -8,7 +8,9 @@ import java.io.FileNotFoundException;
 public class Main {
     public static void main(String[] args) {
 
-        //Problem1.problem1();
+
+
+        Problem1.problem1();
         //Problem2.problem2();
         //Problem3.problem3();
         //Problem5.problem5();
@@ -17,6 +19,10 @@ public class Main {
 //        } catch (FileNotFoundException e) {
 //            throw new RuntimeException(e);
 //        }
+
+
+
+
 
     }
 }

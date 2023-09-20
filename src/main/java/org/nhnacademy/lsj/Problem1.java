@@ -23,7 +23,7 @@ public class Problem1 {
 
         List<Integer> list = new ArrayList<>();
 
-        list = rangeInput(sc.nextInt());
+        list = rangeRandomInput(sc.nextInt(),sc.nextInt());
 
         for (int i = 0; i < list.size(); i++) {
             logger.info("{}번째 숫자 {}", i + 1, list.get(i));
@@ -36,11 +36,11 @@ public class Problem1 {
      * @param max 최대 범위.
      * @return List.
      */
-    public static List<Integer> rangeInput(int max) {
+    public static List<Integer> rangeRandomInput(int inputCount,int max) {
 
         List<Integer> list = new ArrayList<>();
 
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= inputCount; i++) {
             list.add((int) (Math.random() * max + 1));
         }
         return list;

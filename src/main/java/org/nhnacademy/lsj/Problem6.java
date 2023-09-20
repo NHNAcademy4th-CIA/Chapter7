@@ -34,10 +34,7 @@ public class Problem6 {
         Map<String, Integer> m = new TreeMap<>();
 
 
-        try { // 한 줄 씩 읽어
-
-            File file = new File("src/main/resources/lsj.txt");
-            BufferedReader br = new BufferedReader(new FileReader(file));
+        try (BufferedReader br = new BufferedReader(new FileReader(new File("src/main/resources/lsj.txt")))){ // 한 줄 씩 읽어
 
             String line;
 
