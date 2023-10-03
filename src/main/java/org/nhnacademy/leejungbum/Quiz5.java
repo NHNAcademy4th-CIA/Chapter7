@@ -1,4 +1,4 @@
-package org.nhnacademy;
+package org.nhnacademy.leejungbum;
 
 import java.util.Scanner;
 import org.slf4j.Logger;

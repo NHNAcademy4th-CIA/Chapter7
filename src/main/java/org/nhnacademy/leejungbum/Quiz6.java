@@ -1,4 +1,4 @@
-package org.nhnacademy;
+package org.nhnacademy.leejungbum;
 
 import java.io.BufferedReader;
 import java.io.File;
